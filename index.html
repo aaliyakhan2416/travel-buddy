@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Travel Buddy</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#fcf4e3]">
+
+    <nav class="bg-[#0E3D5A] py-2 px-8 shadow-xl flex text-[text-shadow:_1px_1px_2px_#0e3d5a]">
+     <img class="w-15 h-15 mx-4 rounded-md" src="./ChatGPT Image Dec 8, 2025, 02_10_58 AM.png" alt="">
+        <h1 class=" font-bold text-5xl text-[#EC8D36]">Travel Buddy</h1>
+    </nav>
+
+    <div class="p-8">
+
+        <form class="p-4 border border-gray-300 rounded-md bg-[#0E3D5A]">
+
+            <input id="city" class="w-full rounded-md border border-gray-300 my-2 p-2 bg-[#fcf4e3]" type="text"
+                placeholder="Enter City Name">
+            <input id="days" class="w-full rounded-md border border-gray-300 my-2 p-2 bg-[#fcf4e3]" type="text"
+                placeholder="How Many Days">
+            <input id="budget" class="w-full rounded-md border border-gray-300 my-2 p-2 bg-[#fcf4e3]" type="text"
+                placeholder="Enter Your Budget">
+            <button
+                class="bg-[#EC8D36] my-6 cursor-pointer text-white font-bold w-full p-2.5 rounded-md hover:bg-yellow-600">Generate
+                Plan</button>
+        </form>
+
+        <div id="box" class="border border-gray-200 p-4 rounded-md my-4">
+            <p class="text-gray-700 font-semibold"></p>
+        </div>
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
