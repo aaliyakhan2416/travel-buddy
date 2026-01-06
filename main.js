@@ -15,7 +15,7 @@ e.preventDefault()
 
 p.innerText="Thinking......."
 
-  const API_KEY  = 'AIzaSyANFigGuE9PZ9mxnOt6UJeCKj3K5U3TOjQ'; // add your API key here
+  const API_KEY  = 'AIzaSyC2qILO6_t_HMU9DPyjyKGgQ7OvZ91eXOg'; // add your API key here
 
   const response = await fetch(
     "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
